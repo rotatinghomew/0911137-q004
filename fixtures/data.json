@@ -1,0 +1,4360 @@
+{
+  "meta": {
+    "name": "多方案实验评审台",
+    "description": "assignments 是用户随机分组，unit 不重复，assigned_at 是分组日期。",
+    "groups": [
+      "老客",
+      "新客"
+    ],
+    "default_cutoff": 60,
+    "min_cutoff": 0,
+    "max_cutoff": 120
+  },
+  "tables": {
+    "assignments": [
+      {
+        "unit": "u000",
+        "arm": "control",
+        "assigned_at": 1,
+        "segment": "新客"
+      },
+      {
+        "unit": "u001",
+        "arm": "basic",
+        "assigned_at": 1,
+        "segment": "老客"
+      },
+      {
+        "unit": "u002",
+        "arm": "plus",
+        "assigned_at": 1,
+        "segment": "新客"
+      },
+      {
+        "unit": "u003",
+        "arm": "control",
+        "assigned_at": 1,
+        "segment": "老客"
+      },
+      {
+        "unit": "u004",
+        "arm": "basic",
+        "assigned_at": 1,
+        "segment": "新客"
+      },
+      {
+        "unit": "u005",
+        "arm": "plus",
+        "assigned_at": 1,
+        "segment": "老客"
+      },
+      {
+        "unit": "u006",
+        "arm": "control",
+        "assigned_at": 2,
+        "segment": "新客"
+      },
+      {
+        "unit": "u007",
+        "arm": "basic",
+        "assigned_at": 2,
+        "segment": "老客"
+      },
+      {
+        "unit": "u008",
+        "arm": "plus",
+        "assigned_at": 2,
+        "segment": "新客"
+      },
+      {
+        "unit": "u009",
+        "arm": "control",
+        "assigned_at": 2,
+        "segment": "老客"
+      },
+      {
+        "unit": "u010",
+        "arm": "basic",
+        "assigned_at": 2,
+        "segment": "新客"
+      },
+      {
+        "unit": "u011",
+        "arm": "plus",
+        "assigned_at": 2,
+        "segment": "老客"
+      },
+      {
+        "unit": "u012",
+        "arm": "control",
+        "assigned_at": 3,
+        "segment": "新客"
+      },
+      {
+        "unit": "u013",
+        "arm": "basic",
+        "assigned_at": 3,
+        "segment": "老客"
+      },
+      {
+        "unit": "u014",
+        "arm": "plus",
+        "assigned_at": 3,
+        "segment": "新客"
+      },
+      {
+        "unit": "u015",
+        "arm": "control",
+        "assigned_at": 3,
+        "segment": "老客"
+      },
+      {
+        "unit": "u016",
+        "arm": "basic",
+        "assigned_at": 3,
+        "segment": "新客"
+      },
+      {
+        "unit": "u017",
+        "arm": "plus",
+        "assigned_at": 3,
+        "segment": "老客"
+      },
+      {
+        "unit": "u018",
+        "arm": "control",
+        "assigned_at": 4,
+        "segment": "新客"
+      },
+      {
+        "unit": "u019",
+        "arm": "basic",
+        "assigned_at": 4,
+        "segment": "老客"
+      },
+      {
+        "unit": "u020",
+        "arm": "plus",
+        "assigned_at": 4,
+        "segment": "新客"
+      },
+      {
+        "unit": "u021",
+        "arm": "control",
+        "assigned_at": 4,
+        "segment": "老客"
+      },
+      {
+        "unit": "u022",
+        "arm": "basic",
+        "assigned_at": 4,
+        "segment": "新客"
+      },
+      {
+        "unit": "u023",
+        "arm": "plus",
+        "assigned_at": 4,
+        "segment": "老客"
+      },
+      {
+        "unit": "u024",
+        "arm": "control",
+        "assigned_at": 5,
+        "segment": "新客"
+      },
+      {
+        "unit": "u025",
+        "arm": "basic",
+        "assigned_at": 5,
+        "segment": "老客"
+      },
+      {
+        "unit": "u026",
+        "arm": "plus",
+        "assigned_at": 5,
+        "segment": "新客"
+      },
+      {
+        "unit": "u027",
+        "arm": "control",
+        "assigned_at": 5,
+        "segment": "老客"
+      },
+      {
+        "unit": "u028",
+        "arm": "basic",
+        "assigned_at": 5,
+        "segment": "新客"
+      },
+      {
+        "unit": "u029",
+        "arm": "plus",
+        "assigned_at": 5,
+        "segment": "老客"
+      },
+      {
+        "unit": "u030",
+        "arm": "control",
+        "assigned_at": 6,
+        "segment": "新客"
+      },
+      {
+        "unit": "u031",
+        "arm": "basic",
+        "assigned_at": 6,
+        "segment": "老客"
+      },
+      {
+        "unit": "u032",
+        "arm": "plus",
+        "assigned_at": 6,
+        "segment": "新客"
+      },
+      {
+        "unit": "u033",
+        "arm": "control",
+        "assigned_at": 6,
+        "segment": "老客"
+      },
+      {
+        "unit": "u034",
+        "arm": "basic",
+        "assigned_at": 6,
+        "segment": "新客"
+      },
+      {
+        "unit": "u035",
+        "arm": "plus",
+        "assigned_at": 6,
+        "segment": "老客"
+      },
+      {
+        "unit": "u036",
+        "arm": "control",
+        "assigned_at": 7,
+        "segment": "新客"
+      },
+      {
+        "unit": "u037",
+        "arm": "basic",
+        "assigned_at": 7,
+        "segment": "老客"
+      },
+      {
+        "unit": "u038",
+        "arm": "plus",
+        "assigned_at": 7,
+        "segment": "新客"
+      },
+      {
+        "unit": "u039",
+        "arm": "control",
+        "assigned_at": 7,
+        "segment": "老客"
+      },
+      {
+        "unit": "u040",
+        "arm": "basic",
+        "assigned_at": 7,
+        "segment": "新客"
+      },
+      {
+        "unit": "u041",
+        "arm": "plus",
+        "assigned_at": 7,
+        "segment": "老客"
+      },
+      {
+        "unit": "u042",
+        "arm": "control",
+        "assigned_at": 8,
+        "segment": "新客"
+      },
+      {
+        "unit": "u043",
+        "arm": "basic",
+        "assigned_at": 8,
+        "segment": "老客"
+      },
+      {
+        "unit": "u044",
+        "arm": "plus",
+        "assigned_at": 8,
+        "segment": "新客"
+      },
+      {
+        "unit": "u045",
+        "arm": "control",
+        "assigned_at": 8,
+        "segment": "老客"
+      },
+      {
+        "unit": "u046",
+        "arm": "basic",
+        "assigned_at": 8,
+        "segment": "新客"
+      },
+      {
+        "unit": "u047",
+        "arm": "plus",
+        "assigned_at": 8,
+        "segment": "老客"
+      },
+      {
+        "unit": "u048",
+        "arm": "control",
+        "assigned_at": 9,
+        "segment": "新客"
+      },
+      {
+        "unit": "u049",
+        "arm": "basic",
+        "assigned_at": 9,
+        "segment": "老客"
+      },
+      {
+        "unit": "u050",
+        "arm": "plus",
+        "assigned_at": 9,
+        "segment": "新客"
+      },
+      {
+        "unit": "u051",
+        "arm": "control",
+        "assigned_at": 9,
+        "segment": "老客"
+      },
+      {
+        "unit": "u052",
+        "arm": "basic",
+        "assigned_at": 9,
+        "segment": "新客"
+      },
+      {
+        "unit": "u053",
+        "arm": "plus",
+        "assigned_at": 9,
+        "segment": "老客"
+      },
+      {
+        "unit": "u054",
+        "arm": "control",
+        "assigned_at": 10,
+        "segment": "新客"
+      },
+      {
+        "unit": "u055",
+        "arm": "basic",
+        "assigned_at": 10,
+        "segment": "老客"
+      },
+      {
+        "unit": "u056",
+        "arm": "plus",
+        "assigned_at": 10,
+        "segment": "新客"
+      },
+      {
+        "unit": "u057",
+        "arm": "control",
+        "assigned_at": 10,
+        "segment": "老客"
+      },
+      {
+        "unit": "u058",
+        "arm": "basic",
+        "assigned_at": 10,
+        "segment": "新客"
+      },
+      {
+        "unit": "u059",
+        "arm": "plus",
+        "assigned_at": 10,
+        "segment": "老客"
+      },
+      {
+        "unit": "u060",
+        "arm": "control",
+        "assigned_at": 11,
+        "segment": "新客"
+      },
+      {
+        "unit": "u061",
+        "arm": "basic",
+        "assigned_at": 11,
+        "segment": "老客"
+      },
+      {
+        "unit": "u062",
+        "arm": "plus",
+        "assigned_at": 11,
+        "segment": "新客"
+      },
+      {
+        "unit": "u063",
+        "arm": "control",
+        "assigned_at": 11,
+        "segment": "老客"
+      },
+      {
+        "unit": "u064",
+        "arm": "basic",
+        "assigned_at": 11,
+        "segment": "新客"
+      },
+      {
+        "unit": "u065",
+        "arm": "plus",
+        "assigned_at": 11,
+        "segment": "老客"
+      },
+      {
+        "unit": "u066",
+        "arm": "control",
+        "assigned_at": 12,
+        "segment": "新客"
+      },
+      {
+        "unit": "u067",
+        "arm": "basic",
+        "assigned_at": 12,
+        "segment": "老客"
+      },
+      {
+        "unit": "u068",
+        "arm": "plus",
+        "assigned_at": 12,
+        "segment": "新客"
+      },
+      {
+        "unit": "u069",
+        "arm": "control",
+        "assigned_at": 12,
+        "segment": "老客"
+      },
+      {
+        "unit": "u070",
+        "arm": "basic",
+        "assigned_at": 12,
+        "segment": "新客"
+      },
+      {
+        "unit": "u071",
+        "arm": "plus",
+        "assigned_at": 12,
+        "segment": "老客"
+      },
+      {
+        "unit": "u072",
+        "arm": "control",
+        "assigned_at": 13,
+        "segment": "新客"
+      },
+      {
+        "unit": "u073",
+        "arm": "basic",
+        "assigned_at": 13,
+        "segment": "老客"
+      },
+      {
+        "unit": "u074",
+        "arm": "plus",
+        "assigned_at": 13,
+        "segment": "新客"
+      },
+      {
+        "unit": "u075",
+        "arm": "control",
+        "assigned_at": 13,
+        "segment": "老客"
+      },
+      {
+        "unit": "u076",
+        "arm": "basic",
+        "assigned_at": 13,
+        "segment": "新客"
+      },
+      {
+        "unit": "u077",
+        "arm": "plus",
+        "assigned_at": 13,
+        "segment": "老客"
+      },
+      {
+        "unit": "u078",
+        "arm": "control",
+        "assigned_at": 14,
+        "segment": "新客"
+      },
+      {
+        "unit": "u079",
+        "arm": "basic",
+        "assigned_at": 14,
+        "segment": "老客"
+      },
+      {
+        "unit": "u080",
+        "arm": "plus",
+        "assigned_at": 14,
+        "segment": "新客"
+      },
+      {
+        "unit": "u081",
+        "arm": "control",
+        "assigned_at": 14,
+        "segment": "老客"
+      },
+      {
+        "unit": "u082",
+        "arm": "basic",
+        "assigned_at": 14,
+        "segment": "新客"
+      },
+      {
+        "unit": "u083",
+        "arm": "plus",
+        "assigned_at": 14,
+        "segment": "老客"
+      },
+      {
+        "unit": "u084",
+        "arm": "control",
+        "assigned_at": 15,
+        "segment": "新客"
+      },
+      {
+        "unit": "u085",
+        "arm": "basic",
+        "assigned_at": 15,
+        "segment": "老客"
+      },
+      {
+        "unit": "u086",
+        "arm": "plus",
+        "assigned_at": 15,
+        "segment": "新客"
+      },
+      {
+        "unit": "u087",
+        "arm": "control",
+        "assigned_at": 15,
+        "segment": "老客"
+      },
+      {
+        "unit": "u088",
+        "arm": "basic",
+        "assigned_at": 15,
+        "segment": "新客"
+      },
+      {
+        "unit": "u089",
+        "arm": "plus",
+        "assigned_at": 15,
+        "segment": "老客"
+      },
+      {
+        "unit": "u090",
+        "arm": "control",
+        "assigned_at": 16,
+        "segment": "新客"
+      },
+      {
+        "unit": "u091",
+        "arm": "basic",
+        "assigned_at": 16,
+        "segment": "老客"
+      },
+      {
+        "unit": "u092",
+        "arm": "plus",
+        "assigned_at": 16,
+        "segment": "新客"
+      },
+      {
+        "unit": "u093",
+        "arm": "control",
+        "assigned_at": 16,
+        "segment": "老客"
+      },
+      {
+        "unit": "u094",
+        "arm": "basic",
+        "assigned_at": 16,
+        "segment": "新客"
+      },
+      {
+        "unit": "u095",
+        "arm": "plus",
+        "assigned_at": 16,
+        "segment": "老客"
+      },
+      {
+        "unit": "u096",
+        "arm": "control",
+        "assigned_at": 17,
+        "segment": "新客"
+      },
+      {
+        "unit": "u097",
+        "arm": "basic",
+        "assigned_at": 17,
+        "segment": "老客"
+      },
+      {
+        "unit": "u098",
+        "arm": "plus",
+        "assigned_at": 17,
+        "segment": "新客"
+      },
+      {
+        "unit": "u099",
+        "arm": "control",
+        "assigned_at": 17,
+        "segment": "老客"
+      },
+      {
+        "unit": "u100",
+        "arm": "basic",
+        "assigned_at": 17,
+        "segment": "新客"
+      },
+      {
+        "unit": "u101",
+        "arm": "plus",
+        "assigned_at": 17,
+        "segment": "老客"
+      },
+      {
+        "unit": "u102",
+        "arm": "control",
+        "assigned_at": 18,
+        "segment": "新客"
+      },
+      {
+        "unit": "u103",
+        "arm": "basic",
+        "assigned_at": 18,
+        "segment": "老客"
+      },
+      {
+        "unit": "u104",
+        "arm": "plus",
+        "assigned_at": 18,
+        "segment": "新客"
+      },
+      {
+        "unit": "u105",
+        "arm": "control",
+        "assigned_at": 18,
+        "segment": "老客"
+      },
+      {
+        "unit": "u106",
+        "arm": "basic",
+        "assigned_at": 18,
+        "segment": "新客"
+      },
+      {
+        "unit": "u107",
+        "arm": "plus",
+        "assigned_at": 18,
+        "segment": "老客"
+      },
+      {
+        "unit": "u108",
+        "arm": "control",
+        "assigned_at": 19,
+        "segment": "新客"
+      },
+      {
+        "unit": "u109",
+        "arm": "basic",
+        "assigned_at": 19,
+        "segment": "老客"
+      },
+      {
+        "unit": "u110",
+        "arm": "plus",
+        "assigned_at": 19,
+        "segment": "新客"
+      },
+      {
+        "unit": "u111",
+        "arm": "control",
+        "assigned_at": 19,
+        "segment": "老客"
+      },
+      {
+        "unit": "u112",
+        "arm": "basic",
+        "assigned_at": 19,
+        "segment": "新客"
+      },
+      {
+        "unit": "u113",
+        "arm": "plus",
+        "assigned_at": 19,
+        "segment": "老客"
+      },
+      {
+        "unit": "u114",
+        "arm": "control",
+        "assigned_at": 20,
+        "segment": "新客"
+      },
+      {
+        "unit": "u115",
+        "arm": "basic",
+        "assigned_at": 20,
+        "segment": "老客"
+      },
+      {
+        "unit": "u116",
+        "arm": "plus",
+        "assigned_at": 20,
+        "segment": "新客"
+      },
+      {
+        "unit": "u117",
+        "arm": "control",
+        "assigned_at": 20,
+        "segment": "老客"
+      },
+      {
+        "unit": "u118",
+        "arm": "basic",
+        "assigned_at": 20,
+        "segment": "新客"
+      },
+      {
+        "unit": "u119",
+        "arm": "plus",
+        "assigned_at": 20,
+        "segment": "老客"
+      },
+      {
+        "unit": "u120",
+        "arm": "control",
+        "assigned_at": 21,
+        "segment": "新客"
+      },
+      {
+        "unit": "u121",
+        "arm": "basic",
+        "assigned_at": 21,
+        "segment": "老客"
+      },
+      {
+        "unit": "u122",
+        "arm": "plus",
+        "assigned_at": 21,
+        "segment": "新客"
+      },
+      {
+        "unit": "u123",
+        "arm": "control",
+        "assigned_at": 21,
+        "segment": "老客"
+      },
+      {
+        "unit": "u124",
+        "arm": "basic",
+        "assigned_at": 21,
+        "segment": "新客"
+      },
+      {
+        "unit": "u125",
+        "arm": "plus",
+        "assigned_at": 21,
+        "segment": "老客"
+      },
+      {
+        "unit": "u126",
+        "arm": "control",
+        "assigned_at": 22,
+        "segment": "新客"
+      },
+      {
+        "unit": "u127",
+        "arm": "basic",
+        "assigned_at": 22,
+        "segment": "老客"
+      },
+      {
+        "unit": "u128",
+        "arm": "plus",
+        "assigned_at": 22,
+        "segment": "新客"
+      },
+      {
+        "unit": "u129",
+        "arm": "control",
+        "assigned_at": 22,
+        "segment": "老客"
+      },
+      {
+        "unit": "u130",
+        "arm": "basic",
+        "assigned_at": 22,
+        "segment": "新客"
+      },
+      {
+        "unit": "u131",
+        "arm": "plus",
+        "assigned_at": 22,
+        "segment": "老客"
+      },
+      {
+        "unit": "u132",
+        "arm": "control",
+        "assigned_at": 23,
+        "segment": "新客"
+      },
+      {
+        "unit": "u133",
+        "arm": "basic",
+        "assigned_at": 23,
+        "segment": "老客"
+      },
+      {
+        "unit": "u134",
+        "arm": "plus",
+        "assigned_at": 23,
+        "segment": "新客"
+      },
+      {
+        "unit": "u135",
+        "arm": "control",
+        "assigned_at": 23,
+        "segment": "老客"
+      },
+      {
+        "unit": "u136",
+        "arm": "basic",
+        "assigned_at": 23,
+        "segment": "新客"
+      },
+      {
+        "unit": "u137",
+        "arm": "plus",
+        "assigned_at": 23,
+        "segment": "老客"
+      },
+      {
+        "unit": "u138",
+        "arm": "control",
+        "assigned_at": 24,
+        "segment": "新客"
+      },
+      {
+        "unit": "u139",
+        "arm": "basic",
+        "assigned_at": 24,
+        "segment": "老客"
+      },
+      {
+        "unit": "u140",
+        "arm": "plus",
+        "assigned_at": 24,
+        "segment": "新客"
+      },
+      {
+        "unit": "u141",
+        "arm": "control",
+        "assigned_at": 24,
+        "segment": "老客"
+      },
+      {
+        "unit": "u142",
+        "arm": "basic",
+        "assigned_at": 24,
+        "segment": "新客"
+      },
+      {
+        "unit": "u143",
+        "arm": "plus",
+        "assigned_at": 24,
+        "segment": "老客"
+      },
+      {
+        "unit": "u144",
+        "arm": "control",
+        "assigned_at": 25,
+        "segment": "新客"
+      },
+      {
+        "unit": "u145",
+        "arm": "basic",
+        "assigned_at": 25,
+        "segment": "老客"
+      },
+      {
+        "unit": "u146",
+        "arm": "plus",
+        "assigned_at": 25,
+        "segment": "新客"
+      },
+      {
+        "unit": "u147",
+        "arm": "control",
+        "assigned_at": 25,
+        "segment": "老客"
+      },
+      {
+        "unit": "u148",
+        "arm": "basic",
+        "assigned_at": 25,
+        "segment": "新客"
+      },
+      {
+        "unit": "u149",
+        "arm": "plus",
+        "assigned_at": 25,
+        "segment": "老客"
+      },
+      {
+        "unit": "u150",
+        "arm": "control",
+        "assigned_at": 26,
+        "segment": "新客"
+      },
+      {
+        "unit": "u151",
+        "arm": "basic",
+        "assigned_at": 26,
+        "segment": "老客"
+      },
+      {
+        "unit": "u152",
+        "arm": "plus",
+        "assigned_at": 26,
+        "segment": "新客"
+      },
+      {
+        "unit": "u153",
+        "arm": "control",
+        "assigned_at": 26,
+        "segment": "老客"
+      },
+      {
+        "unit": "u154",
+        "arm": "basic",
+        "assigned_at": 26,
+        "segment": "新客"
+      },
+      {
+        "unit": "u155",
+        "arm": "plus",
+        "assigned_at": 26,
+        "segment": "老客"
+      },
+      {
+        "unit": "u156",
+        "arm": "control",
+        "assigned_at": 27,
+        "segment": "新客"
+      },
+      {
+        "unit": "u157",
+        "arm": "basic",
+        "assigned_at": 27,
+        "segment": "老客"
+      },
+      {
+        "unit": "u158",
+        "arm": "plus",
+        "assigned_at": 27,
+        "segment": "新客"
+      },
+      {
+        "unit": "u159",
+        "arm": "control",
+        "assigned_at": 27,
+        "segment": "老客"
+      },
+      {
+        "unit": "u160",
+        "arm": "basic",
+        "assigned_at": 27,
+        "segment": "新客"
+      },
+      {
+        "unit": "u161",
+        "arm": "plus",
+        "assigned_at": 27,
+        "segment": "老客"
+      },
+      {
+        "unit": "u162",
+        "arm": "control",
+        "assigned_at": 28,
+        "segment": "新客"
+      },
+      {
+        "unit": "u163",
+        "arm": "basic",
+        "assigned_at": 28,
+        "segment": "老客"
+      },
+      {
+        "unit": "u164",
+        "arm": "plus",
+        "assigned_at": 28,
+        "segment": "新客"
+      },
+      {
+        "unit": "u165",
+        "arm": "control",
+        "assigned_at": 28,
+        "segment": "老客"
+      },
+      {
+        "unit": "u166",
+        "arm": "basic",
+        "assigned_at": 28,
+        "segment": "新客"
+      },
+      {
+        "unit": "u167",
+        "arm": "plus",
+        "assigned_at": 28,
+        "segment": "老客"
+      },
+      {
+        "unit": "u168",
+        "arm": "control",
+        "assigned_at": 29,
+        "segment": "新客"
+      },
+      {
+        "unit": "u169",
+        "arm": "basic",
+        "assigned_at": 29,
+        "segment": "老客"
+      },
+      {
+        "unit": "u170",
+        "arm": "plus",
+        "assigned_at": 29,
+        "segment": "新客"
+      },
+      {
+        "unit": "u171",
+        "arm": "control",
+        "assigned_at": 29,
+        "segment": "老客"
+      },
+      {
+        "unit": "u172",
+        "arm": "basic",
+        "assigned_at": 29,
+        "segment": "新客"
+      },
+      {
+        "unit": "u173",
+        "arm": "plus",
+        "assigned_at": 29,
+        "segment": "老客"
+      },
+      {
+        "unit": "u174",
+        "arm": "control",
+        "assigned_at": 30,
+        "segment": "新客"
+      },
+      {
+        "unit": "u175",
+        "arm": "basic",
+        "assigned_at": 30,
+        "segment": "老客"
+      },
+      {
+        "unit": "u176",
+        "arm": "plus",
+        "assigned_at": 30,
+        "segment": "新客"
+      },
+      {
+        "unit": "u177",
+        "arm": "control",
+        "assigned_at": 30,
+        "segment": "老客"
+      },
+      {
+        "unit": "u178",
+        "arm": "basic",
+        "assigned_at": 30,
+        "segment": "新客"
+      },
+      {
+        "unit": "u179",
+        "arm": "plus",
+        "assigned_at": 30,
+        "segment": "老客"
+      },
+      {
+        "unit": "u180",
+        "arm": "control",
+        "assigned_at": 31,
+        "segment": "新客"
+      },
+      {
+        "unit": "u181",
+        "arm": "basic",
+        "assigned_at": 31,
+        "segment": "老客"
+      },
+      {
+        "unit": "u182",
+        "arm": "plus",
+        "assigned_at": 31,
+        "segment": "新客"
+      },
+      {
+        "unit": "u183",
+        "arm": "control",
+        "assigned_at": 31,
+        "segment": "老客"
+      },
+      {
+        "unit": "u184",
+        "arm": "basic",
+        "assigned_at": 31,
+        "segment": "新客"
+      },
+      {
+        "unit": "u185",
+        "arm": "plus",
+        "assigned_at": 31,
+        "segment": "老客"
+      },
+      {
+        "unit": "u186",
+        "arm": "control",
+        "assigned_at": 32,
+        "segment": "新客"
+      },
+      {
+        "unit": "u187",
+        "arm": "basic",
+        "assigned_at": 32,
+        "segment": "老客"
+      },
+      {
+        "unit": "u188",
+        "arm": "plus",
+        "assigned_at": 32,
+        "segment": "新客"
+      },
+      {
+        "unit": "u189",
+        "arm": "control",
+        "assigned_at": 32,
+        "segment": "老客"
+      },
+      {
+        "unit": "u190",
+        "arm": "basic",
+        "assigned_at": 32,
+        "segment": "新客"
+      },
+      {
+        "unit": "u191",
+        "arm": "plus",
+        "assigned_at": 32,
+        "segment": "老客"
+      },
+      {
+        "unit": "u192",
+        "arm": "control",
+        "assigned_at": 33,
+        "segment": "新客"
+      },
+      {
+        "unit": "u193",
+        "arm": "basic",
+        "assigned_at": 33,
+        "segment": "老客"
+      },
+      {
+        "unit": "u194",
+        "arm": "plus",
+        "assigned_at": 33,
+        "segment": "新客"
+      },
+      {
+        "unit": "u195",
+        "arm": "control",
+        "assigned_at": 33,
+        "segment": "老客"
+      },
+      {
+        "unit": "u196",
+        "arm": "basic",
+        "assigned_at": 33,
+        "segment": "新客"
+      },
+      {
+        "unit": "u197",
+        "arm": "plus",
+        "assigned_at": 33,
+        "segment": "老客"
+      },
+      {
+        "unit": "u198",
+        "arm": "control",
+        "assigned_at": 34,
+        "segment": "新客"
+      },
+      {
+        "unit": "u199",
+        "arm": "basic",
+        "assigned_at": 34,
+        "segment": "老客"
+      },
+      {
+        "unit": "u200",
+        "arm": "plus",
+        "assigned_at": 34,
+        "segment": "新客"
+      },
+      {
+        "unit": "u201",
+        "arm": "control",
+        "assigned_at": 34,
+        "segment": "老客"
+      },
+      {
+        "unit": "u202",
+        "arm": "basic",
+        "assigned_at": 34,
+        "segment": "新客"
+      },
+      {
+        "unit": "u203",
+        "arm": "plus",
+        "assigned_at": 34,
+        "segment": "老客"
+      },
+      {
+        "unit": "u204",
+        "arm": "control",
+        "assigned_at": 35,
+        "segment": "新客"
+      },
+      {
+        "unit": "u205",
+        "arm": "basic",
+        "assigned_at": 35,
+        "segment": "老客"
+      },
+      {
+        "unit": "u206",
+        "arm": "plus",
+        "assigned_at": 35,
+        "segment": "新客"
+      },
+      {
+        "unit": "u207",
+        "arm": "control",
+        "assigned_at": 35,
+        "segment": "老客"
+      },
+      {
+        "unit": "u208",
+        "arm": "basic",
+        "assigned_at": 35,
+        "segment": "新客"
+      },
+      {
+        "unit": "u209",
+        "arm": "plus",
+        "assigned_at": 35,
+        "segment": "老客"
+      },
+      {
+        "unit": "u210",
+        "arm": "control",
+        "assigned_at": 36,
+        "segment": "新客"
+      },
+      {
+        "unit": "u211",
+        "arm": "basic",
+        "assigned_at": 36,
+        "segment": "老客"
+      },
+      {
+        "unit": "u212",
+        "arm": "plus",
+        "assigned_at": 36,
+        "segment": "新客"
+      },
+      {
+        "unit": "u213",
+        "arm": "control",
+        "assigned_at": 36,
+        "segment": "老客"
+      },
+      {
+        "unit": "u214",
+        "arm": "basic",
+        "assigned_at": 36,
+        "segment": "新客"
+      },
+      {
+        "unit": "u215",
+        "arm": "plus",
+        "assigned_at": 36,
+        "segment": "老客"
+      },
+      {
+        "unit": "u216",
+        "arm": "control",
+        "assigned_at": 37,
+        "segment": "新客"
+      },
+      {
+        "unit": "u217",
+        "arm": "basic",
+        "assigned_at": 37,
+        "segment": "老客"
+      },
+      {
+        "unit": "u218",
+        "arm": "plus",
+        "assigned_at": 37,
+        "segment": "新客"
+      },
+      {
+        "unit": "u219",
+        "arm": "control",
+        "assigned_at": 37,
+        "segment": "老客"
+      },
+      {
+        "unit": "u220",
+        "arm": "basic",
+        "assigned_at": 37,
+        "segment": "新客"
+      },
+      {
+        "unit": "u221",
+        "arm": "plus",
+        "assigned_at": 37,
+        "segment": "老客"
+      },
+      {
+        "unit": "u222",
+        "arm": "control",
+        "assigned_at": 38,
+        "segment": "新客"
+      },
+      {
+        "unit": "u223",
+        "arm": "basic",
+        "assigned_at": 38,
+        "segment": "老客"
+      },
+      {
+        "unit": "u224",
+        "arm": "plus",
+        "assigned_at": 38,
+        "segment": "新客"
+      },
+      {
+        "unit": "u225",
+        "arm": "control",
+        "assigned_at": 38,
+        "segment": "老客"
+      },
+      {
+        "unit": "u226",
+        "arm": "basic",
+        "assigned_at": 38,
+        "segment": "新客"
+      },
+      {
+        "unit": "u227",
+        "arm": "plus",
+        "assigned_at": 38,
+        "segment": "老客"
+      },
+      {
+        "unit": "u228",
+        "arm": "control",
+        "assigned_at": 39,
+        "segment": "新客"
+      },
+      {
+        "unit": "u229",
+        "arm": "basic",
+        "assigned_at": 39,
+        "segment": "老客"
+      },
+      {
+        "unit": "u230",
+        "arm": "plus",
+        "assigned_at": 39,
+        "segment": "新客"
+      },
+      {
+        "unit": "u231",
+        "arm": "control",
+        "assigned_at": 39,
+        "segment": "老客"
+      },
+      {
+        "unit": "u232",
+        "arm": "basic",
+        "assigned_at": 39,
+        "segment": "新客"
+      },
+      {
+        "unit": "u233",
+        "arm": "plus",
+        "assigned_at": 39,
+        "segment": "老客"
+      },
+      {
+        "unit": "u234",
+        "arm": "control",
+        "assigned_at": 40,
+        "segment": "新客"
+      },
+      {
+        "unit": "u235",
+        "arm": "basic",
+        "assigned_at": 40,
+        "segment": "老客"
+      },
+      {
+        "unit": "u236",
+        "arm": "plus",
+        "assigned_at": 40,
+        "segment": "新客"
+      },
+      {
+        "unit": "u237",
+        "arm": "control",
+        "assigned_at": 40,
+        "segment": "老客"
+      },
+      {
+        "unit": "u238",
+        "arm": "basic",
+        "assigned_at": 40,
+        "segment": "新客"
+      },
+      {
+        "unit": "u239",
+        "arm": "plus",
+        "assigned_at": 40,
+        "segment": "老客"
+      }
+    ],
+    "outcomes": [
+      {
+        "unit": "u000",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 8
+      },
+      {
+        "unit": "u000",
+        "metric": "refund",
+        "value": null,
+        "known_at": 31
+      },
+      {
+        "unit": "u001",
+        "metric": "revenue",
+        "value": 33.02,
+        "known_at": 8
+      },
+      {
+        "unit": "u001",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 31
+      },
+      {
+        "unit": "u002",
+        "metric": "revenue",
+        "value": 12.61,
+        "known_at": 8
+      },
+      {
+        "unit": "u002",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 31
+      },
+      {
+        "unit": "u003",
+        "metric": "revenue",
+        "value": 32.09,
+        "known_at": 8
+      },
+      {
+        "unit": "u003",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 31
+      },
+      {
+        "unit": "u004",
+        "metric": "revenue",
+        "value": 22.88,
+        "known_at": 8
+      },
+      {
+        "unit": "u004",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 31
+      },
+      {
+        "unit": "u005",
+        "metric": "revenue",
+        "value": 38.42,
+        "known_at": 8
+      },
+      {
+        "unit": "u005",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 31
+      },
+      {
+        "unit": "u006",
+        "metric": "revenue",
+        "value": 9.35,
+        "known_at": 9
+      },
+      {
+        "unit": "u006",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 32
+      },
+      {
+        "unit": "u007",
+        "metric": "revenue",
+        "value": 18.61,
+        "known_at": 9
+      },
+      {
+        "unit": "u007",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 32
+      },
+      {
+        "unit": "u008",
+        "metric": "revenue",
+        "value": 30.84,
+        "known_at": 9
+      },
+      {
+        "unit": "u008",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 32
+      },
+      {
+        "unit": "u009",
+        "metric": "revenue",
+        "value": 38.68,
+        "known_at": 9
+      },
+      {
+        "unit": "u009",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 32
+      },
+      {
+        "unit": "u010",
+        "metric": "revenue",
+        "value": 17.54,
+        "known_at": 9
+      },
+      {
+        "unit": "u010",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 32
+      },
+      {
+        "unit": "u011",
+        "metric": "revenue",
+        "value": 31.65,
+        "known_at": 9
+      },
+      {
+        "unit": "u011",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 32
+      },
+      {
+        "unit": "u012",
+        "metric": "revenue",
+        "value": 28.74,
+        "known_at": 10
+      },
+      {
+        "unit": "u012",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 33
+      },
+      {
+        "unit": "u013",
+        "metric": "revenue",
+        "value": 2.29,
+        "known_at": 10
+      },
+      {
+        "unit": "u013",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 33
+      },
+      {
+        "unit": "u014",
+        "metric": "revenue",
+        "value": 31.18,
+        "known_at": 10
+      },
+      {
+        "unit": "u014",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 33
+      },
+      {
+        "unit": "u015",
+        "metric": "revenue",
+        "value": 7.59,
+        "known_at": 10
+      },
+      {
+        "unit": "u015",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 33
+      },
+      {
+        "unit": "u016",
+        "metric": "revenue",
+        "value": 30.59,
+        "known_at": 10
+      },
+      {
+        "unit": "u016",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 33
+      },
+      {
+        "unit": "u017",
+        "metric": "revenue",
+        "value": 21.96,
+        "known_at": 10
+      },
+      {
+        "unit": "u017",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 33
+      },
+      {
+        "unit": "u018",
+        "metric": "revenue",
+        "value": 17.92,
+        "known_at": 11
+      },
+      {
+        "unit": "u018",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u019",
+        "metric": "revenue",
+        "value": 18.67,
+        "known_at": 11
+      },
+      {
+        "unit": "u019",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u020",
+        "metric": "revenue",
+        "value": 23.48,
+        "known_at": 11
+      },
+      {
+        "unit": "u020",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u021",
+        "metric": "revenue",
+        "value": 20.05,
+        "known_at": 11
+      },
+      {
+        "unit": "u021",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u022",
+        "metric": "revenue",
+        "value": 32.11,
+        "known_at": 11
+      },
+      {
+        "unit": "u022",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u023",
+        "metric": "revenue",
+        "value": 38.87,
+        "known_at": 11
+      },
+      {
+        "unit": "u023",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 34
+      },
+      {
+        "unit": "u024",
+        "metric": "revenue",
+        "value": 22.65,
+        "known_at": 12
+      },
+      {
+        "unit": "u024",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 35
+      },
+      {
+        "unit": "u025",
+        "metric": "revenue",
+        "value": 23.83,
+        "known_at": 12
+      },
+      {
+        "unit": "u025",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 35
+      },
+      {
+        "unit": "u026",
+        "metric": "revenue",
+        "value": 13.59,
+        "known_at": 12
+      },
+      {
+        "unit": "u026",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 35
+      },
+      {
+        "unit": "u027",
+        "metric": "revenue",
+        "value": 27.74,
+        "known_at": 12
+      },
+      {
+        "unit": "u027",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 35
+      },
+      {
+        "unit": "u028",
+        "metric": "revenue",
+        "value": 13.04,
+        "known_at": 12
+      },
+      {
+        "unit": "u028",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 35
+      },
+      {
+        "unit": "u029",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 12
+      },
+      {
+        "unit": "u029",
+        "metric": "refund",
+        "value": null,
+        "known_at": 35
+      },
+      {
+        "unit": "u030",
+        "metric": "revenue",
+        "value": 13.84,
+        "known_at": 13
+      },
+      {
+        "unit": "u030",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u031",
+        "metric": "revenue",
+        "value": 31.79,
+        "known_at": 13
+      },
+      {
+        "unit": "u031",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u032",
+        "metric": "revenue",
+        "value": 23.89,
+        "known_at": 13
+      },
+      {
+        "unit": "u032",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u033",
+        "metric": "revenue",
+        "value": 26.13,
+        "known_at": 13
+      },
+      {
+        "unit": "u033",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u034",
+        "metric": "revenue",
+        "value": 33.64,
+        "known_at": 13
+      },
+      {
+        "unit": "u034",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u035",
+        "metric": "revenue",
+        "value": 18.16,
+        "known_at": 13
+      },
+      {
+        "unit": "u035",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 36
+      },
+      {
+        "unit": "u036",
+        "metric": "revenue",
+        "value": 8.88,
+        "known_at": 14
+      },
+      {
+        "unit": "u036",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u037",
+        "metric": "revenue",
+        "value": 18.03,
+        "known_at": 14
+      },
+      {
+        "unit": "u037",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u038",
+        "metric": "revenue",
+        "value": 34.12,
+        "known_at": 14
+      },
+      {
+        "unit": "u038",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u039",
+        "metric": "revenue",
+        "value": 27.1,
+        "known_at": 14
+      },
+      {
+        "unit": "u039",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u040",
+        "metric": "revenue",
+        "value": 28.63,
+        "known_at": 14
+      },
+      {
+        "unit": "u040",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u041",
+        "metric": "revenue",
+        "value": 26.61,
+        "known_at": 14
+      },
+      {
+        "unit": "u041",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 37
+      },
+      {
+        "unit": "u042",
+        "metric": "revenue",
+        "value": 42.78,
+        "known_at": 15
+      },
+      {
+        "unit": "u042",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u043",
+        "metric": "revenue",
+        "value": 25.97,
+        "known_at": 15
+      },
+      {
+        "unit": "u043",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u044",
+        "metric": "revenue",
+        "value": 24.75,
+        "known_at": 15
+      },
+      {
+        "unit": "u044",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u045",
+        "metric": "revenue",
+        "value": 13.65,
+        "known_at": 15
+      },
+      {
+        "unit": "u045",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u046",
+        "metric": "revenue",
+        "value": 54.91,
+        "known_at": 15
+      },
+      {
+        "unit": "u046",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u047",
+        "metric": "revenue",
+        "value": 9.91,
+        "known_at": 15
+      },
+      {
+        "unit": "u047",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 38
+      },
+      {
+        "unit": "u048",
+        "metric": "revenue",
+        "value": 35.51,
+        "known_at": 16
+      },
+      {
+        "unit": "u048",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u049",
+        "metric": "revenue",
+        "value": 14.98,
+        "known_at": 16
+      },
+      {
+        "unit": "u049",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u050",
+        "metric": "revenue",
+        "value": 7.79,
+        "known_at": 16
+      },
+      {
+        "unit": "u050",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u051",
+        "metric": "revenue",
+        "value": 16.79,
+        "known_at": 16
+      },
+      {
+        "unit": "u051",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u052",
+        "metric": "revenue",
+        "value": 31.99,
+        "known_at": 16
+      },
+      {
+        "unit": "u052",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u053",
+        "metric": "revenue",
+        "value": 17.25,
+        "known_at": 16
+      },
+      {
+        "unit": "u053",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 39
+      },
+      {
+        "unit": "u054",
+        "metric": "revenue",
+        "value": 33.45,
+        "known_at": 17
+      },
+      {
+        "unit": "u054",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 40
+      },
+      {
+        "unit": "u055",
+        "metric": "revenue",
+        "value": 17.86,
+        "known_at": 17
+      },
+      {
+        "unit": "u055",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 40
+      },
+      {
+        "unit": "u056",
+        "metric": "revenue",
+        "value": 45.18,
+        "known_at": 17
+      },
+      {
+        "unit": "u056",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 40
+      },
+      {
+        "unit": "u057",
+        "metric": "revenue",
+        "value": 27.07,
+        "known_at": 17
+      },
+      {
+        "unit": "u057",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 40
+      },
+      {
+        "unit": "u058",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 17
+      },
+      {
+        "unit": "u058",
+        "metric": "refund",
+        "value": null,
+        "known_at": 40
+      },
+      {
+        "unit": "u059",
+        "metric": "revenue",
+        "value": 21.92,
+        "known_at": 17
+      },
+      {
+        "unit": "u059",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 40
+      },
+      {
+        "unit": "u060",
+        "metric": "revenue",
+        "value": 8.78,
+        "known_at": 18
+      },
+      {
+        "unit": "u060",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 41
+      },
+      {
+        "unit": "u061",
+        "metric": "revenue",
+        "value": 28.24,
+        "known_at": 18
+      },
+      {
+        "unit": "u061",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 41
+      },
+      {
+        "unit": "u062",
+        "metric": "revenue",
+        "value": 27.71,
+        "known_at": 18
+      },
+      {
+        "unit": "u062",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 41
+      },
+      {
+        "unit": "u063",
+        "metric": "revenue",
+        "value": 15.44,
+        "known_at": 18
+      },
+      {
+        "unit": "u063",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 41
+      },
+      {
+        "unit": "u064",
+        "metric": "revenue",
+        "value": 38.85,
+        "known_at": 18
+      },
+      {
+        "unit": "u064",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 41
+      },
+      {
+        "unit": "u065",
+        "metric": "revenue",
+        "value": 24.3,
+        "known_at": 18
+      },
+      {
+        "unit": "u065",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 41
+      },
+      {
+        "unit": "u066",
+        "metric": "revenue",
+        "value": 22.08,
+        "known_at": 19
+      },
+      {
+        "unit": "u066",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u067",
+        "metric": "revenue",
+        "value": 21.21,
+        "known_at": 19
+      },
+      {
+        "unit": "u067",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u068",
+        "metric": "revenue",
+        "value": 36.04,
+        "known_at": 19
+      },
+      {
+        "unit": "u068",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u069",
+        "metric": "revenue",
+        "value": 11.84,
+        "known_at": 19
+      },
+      {
+        "unit": "u069",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u070",
+        "metric": "revenue",
+        "value": 29.59,
+        "known_at": 19
+      },
+      {
+        "unit": "u070",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u071",
+        "metric": "revenue",
+        "value": 28.93,
+        "known_at": 19
+      },
+      {
+        "unit": "u071",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 42
+      },
+      {
+        "unit": "u072",
+        "metric": "revenue",
+        "value": 6.06,
+        "known_at": 20
+      },
+      {
+        "unit": "u072",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u073",
+        "metric": "revenue",
+        "value": 34.17,
+        "known_at": 20
+      },
+      {
+        "unit": "u073",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u074",
+        "metric": "revenue",
+        "value": 22.18,
+        "known_at": 20
+      },
+      {
+        "unit": "u074",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u075",
+        "metric": "revenue",
+        "value": 31.11,
+        "known_at": 20
+      },
+      {
+        "unit": "u075",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u076",
+        "metric": "revenue",
+        "value": 1.51,
+        "known_at": 20
+      },
+      {
+        "unit": "u076",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u077",
+        "metric": "revenue",
+        "value": 34.73,
+        "known_at": 20
+      },
+      {
+        "unit": "u077",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 43
+      },
+      {
+        "unit": "u078",
+        "metric": "revenue",
+        "value": 32.25,
+        "known_at": 21
+      },
+      {
+        "unit": "u078",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u079",
+        "metric": "revenue",
+        "value": 16.0,
+        "known_at": 21
+      },
+      {
+        "unit": "u079",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u080",
+        "metric": "revenue",
+        "value": 33.14,
+        "known_at": 21
+      },
+      {
+        "unit": "u080",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u081",
+        "metric": "revenue",
+        "value": 25.81,
+        "known_at": 21
+      },
+      {
+        "unit": "u081",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u082",
+        "metric": "revenue",
+        "value": 5.16,
+        "known_at": 21
+      },
+      {
+        "unit": "u082",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u083",
+        "metric": "revenue",
+        "value": 35.45,
+        "known_at": 21
+      },
+      {
+        "unit": "u083",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 44
+      },
+      {
+        "unit": "u084",
+        "metric": "revenue",
+        "value": 8.12,
+        "known_at": 22
+      },
+      {
+        "unit": "u084",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 45
+      },
+      {
+        "unit": "u085",
+        "metric": "revenue",
+        "value": 28.37,
+        "known_at": 22
+      },
+      {
+        "unit": "u085",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 45
+      },
+      {
+        "unit": "u086",
+        "metric": "revenue",
+        "value": 27.76,
+        "known_at": 22
+      },
+      {
+        "unit": "u086",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 45
+      },
+      {
+        "unit": "u087",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 22
+      },
+      {
+        "unit": "u087",
+        "metric": "refund",
+        "value": null,
+        "known_at": 45
+      },
+      {
+        "unit": "u088",
+        "metric": "revenue",
+        "value": 34.05,
+        "known_at": 22
+      },
+      {
+        "unit": "u088",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 45
+      },
+      {
+        "unit": "u089",
+        "metric": "revenue",
+        "value": 11.0,
+        "known_at": 22
+      },
+      {
+        "unit": "u089",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 45
+      },
+      {
+        "unit": "u090",
+        "metric": "revenue",
+        "value": 19.87,
+        "known_at": 23
+      },
+      {
+        "unit": "u090",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u091",
+        "metric": "revenue",
+        "value": 0,
+        "known_at": 23
+      },
+      {
+        "unit": "u091",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u092",
+        "metric": "revenue",
+        "value": 45.08,
+        "known_at": 23
+      },
+      {
+        "unit": "u092",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u093",
+        "metric": "revenue",
+        "value": 7.84,
+        "known_at": 23
+      },
+      {
+        "unit": "u093",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u094",
+        "metric": "revenue",
+        "value": 38.29,
+        "known_at": 23
+      },
+      {
+        "unit": "u094",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u095",
+        "metric": "revenue",
+        "value": 24.18,
+        "known_at": 23
+      },
+      {
+        "unit": "u095",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u096",
+        "metric": "revenue",
+        "value": 15.87,
+        "known_at": 24
+      },
+      {
+        "unit": "u096",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 47
+      },
+      {
+        "unit": "u097",
+        "metric": "revenue",
+        "value": 42.49,
+        "known_at": 24
+      },
+      {
+        "unit": "u097",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 47
+      },
+      {
+        "unit": "u098",
+        "metric": "revenue",
+        "value": 29.64,
+        "known_at": 24
+      },
+      {
+        "unit": "u098",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 47
+      },
+      {
+        "unit": "u099",
+        "metric": "revenue",
+        "value": 35.48,
+        "known_at": 24
+      },
+      {
+        "unit": "u099",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 47
+      },
+      {
+        "unit": "u100",
+        "metric": "revenue",
+        "value": 35.19,
+        "known_at": 24
+      },
+      {
+        "unit": "u100",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 47
+      },
+      {
+        "unit": "u101",
+        "metric": "revenue",
+        "value": 35.91,
+        "known_at": 24
+      },
+      {
+        "unit": "u101",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 47
+      },
+      {
+        "unit": "u102",
+        "metric": "revenue",
+        "value": 20.14,
+        "known_at": 25
+      },
+      {
+        "unit": "u102",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u103",
+        "metric": "revenue",
+        "value": 26.8,
+        "known_at": 25
+      },
+      {
+        "unit": "u103",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u104",
+        "metric": "revenue",
+        "value": 23.59,
+        "known_at": 25
+      },
+      {
+        "unit": "u104",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u105",
+        "metric": "revenue",
+        "value": 3.44,
+        "known_at": 25
+      },
+      {
+        "unit": "u105",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u106",
+        "metric": "revenue",
+        "value": 38.4,
+        "known_at": 25
+      },
+      {
+        "unit": "u106",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u107",
+        "metric": "revenue",
+        "value": 40.29,
+        "known_at": 25
+      },
+      {
+        "unit": "u107",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 48
+      },
+      {
+        "unit": "u108",
+        "metric": "revenue",
+        "value": 7.79,
+        "known_at": 26
+      },
+      {
+        "unit": "u108",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u109",
+        "metric": "revenue",
+        "value": 13.86,
+        "known_at": 26
+      },
+      {
+        "unit": "u109",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u110",
+        "metric": "revenue",
+        "value": 2.59,
+        "known_at": 26
+      },
+      {
+        "unit": "u110",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u111",
+        "metric": "revenue",
+        "value": 24.72,
+        "known_at": 26
+      },
+      {
+        "unit": "u111",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u112",
+        "metric": "revenue",
+        "value": 19.05,
+        "known_at": 26
+      },
+      {
+        "unit": "u112",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u113",
+        "metric": "revenue",
+        "value": 20.68,
+        "known_at": 26
+      },
+      {
+        "unit": "u113",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 49
+      },
+      {
+        "unit": "u114",
+        "metric": "revenue",
+        "value": 27.29,
+        "known_at": 27
+      },
+      {
+        "unit": "u114",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 50
+      },
+      {
+        "unit": "u115",
+        "metric": "revenue",
+        "value": 17.94,
+        "known_at": 27
+      },
+      {
+        "unit": "u115",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 50
+      },
+      {
+        "unit": "u116",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 27
+      },
+      {
+        "unit": "u116",
+        "metric": "refund",
+        "value": null,
+        "known_at": 50
+      },
+      {
+        "unit": "u117",
+        "metric": "revenue",
+        "value": 41.15,
+        "known_at": 27
+      },
+      {
+        "unit": "u117",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 50
+      },
+      {
+        "unit": "u118",
+        "metric": "revenue",
+        "value": 49.63,
+        "known_at": 27
+      },
+      {
+        "unit": "u118",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 50
+      },
+      {
+        "unit": "u119",
+        "metric": "revenue",
+        "value": 12.19,
+        "known_at": 27
+      },
+      {
+        "unit": "u119",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 50
+      },
+      {
+        "unit": "u120",
+        "metric": "revenue",
+        "value": 27.9,
+        "known_at": 28
+      },
+      {
+        "unit": "u120",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u121",
+        "metric": "revenue",
+        "value": 12.24,
+        "known_at": 28
+      },
+      {
+        "unit": "u121",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u122",
+        "metric": "revenue",
+        "value": 30.27,
+        "known_at": 28
+      },
+      {
+        "unit": "u122",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u123",
+        "metric": "revenue",
+        "value": 29.04,
+        "known_at": 28
+      },
+      {
+        "unit": "u123",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u124",
+        "metric": "revenue",
+        "value": 0,
+        "known_at": 28
+      },
+      {
+        "unit": "u124",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u125",
+        "metric": "revenue",
+        "value": 33.17,
+        "known_at": 28
+      },
+      {
+        "unit": "u125",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 51
+      },
+      {
+        "unit": "u126",
+        "metric": "revenue",
+        "value": 21.96,
+        "known_at": 29
+      },
+      {
+        "unit": "u126",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 52
+      },
+      {
+        "unit": "u127",
+        "metric": "revenue",
+        "value": 13.71,
+        "known_at": 29
+      },
+      {
+        "unit": "u127",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 52
+      },
+      {
+        "unit": "u128",
+        "metric": "revenue",
+        "value": 26.38,
+        "known_at": 29
+      },
+      {
+        "unit": "u128",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 52
+      },
+      {
+        "unit": "u129",
+        "metric": "revenue",
+        "value": 37.21,
+        "known_at": 29
+      },
+      {
+        "unit": "u129",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 52
+      },
+      {
+        "unit": "u130",
+        "metric": "revenue",
+        "value": 38.46,
+        "known_at": 29
+      },
+      {
+        "unit": "u130",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 52
+      },
+      {
+        "unit": "u131",
+        "metric": "revenue",
+        "value": 15.55,
+        "known_at": 29
+      },
+      {
+        "unit": "u131",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 52
+      },
+      {
+        "unit": "u132",
+        "metric": "revenue",
+        "value": 22.02,
+        "known_at": 30
+      },
+      {
+        "unit": "u132",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u133",
+        "metric": "revenue",
+        "value": 12.81,
+        "known_at": 30
+      },
+      {
+        "unit": "u133",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u134",
+        "metric": "revenue",
+        "value": 24.04,
+        "known_at": 30
+      },
+      {
+        "unit": "u134",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u135",
+        "metric": "revenue",
+        "value": 35.24,
+        "known_at": 30
+      },
+      {
+        "unit": "u135",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u136",
+        "metric": "revenue",
+        "value": 17.51,
+        "known_at": 30
+      },
+      {
+        "unit": "u136",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u137",
+        "metric": "revenue",
+        "value": 24.21,
+        "known_at": 30
+      },
+      {
+        "unit": "u137",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 53
+      },
+      {
+        "unit": "u138",
+        "metric": "revenue",
+        "value": 5.28,
+        "known_at": 31
+      },
+      {
+        "unit": "u138",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u139",
+        "metric": "revenue",
+        "value": 7.96,
+        "known_at": 31
+      },
+      {
+        "unit": "u139",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u140",
+        "metric": "revenue",
+        "value": 51.68,
+        "known_at": 31
+      },
+      {
+        "unit": "u140",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u141",
+        "metric": "revenue",
+        "value": 17.86,
+        "known_at": 31
+      },
+      {
+        "unit": "u141",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u142",
+        "metric": "revenue",
+        "value": 12.82,
+        "known_at": 31
+      },
+      {
+        "unit": "u142",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u143",
+        "metric": "revenue",
+        "value": 10.34,
+        "known_at": 31
+      },
+      {
+        "unit": "u143",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 54
+      },
+      {
+        "unit": "u144",
+        "metric": "revenue",
+        "value": 28.09,
+        "known_at": 32
+      },
+      {
+        "unit": "u144",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 55
+      },
+      {
+        "unit": "u145",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 32
+      },
+      {
+        "unit": "u145",
+        "metric": "refund",
+        "value": null,
+        "known_at": 55
+      },
+      {
+        "unit": "u146",
+        "metric": "revenue",
+        "value": 11.34,
+        "known_at": 32
+      },
+      {
+        "unit": "u146",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 55
+      },
+      {
+        "unit": "u147",
+        "metric": "revenue",
+        "value": 2.89,
+        "known_at": 32
+      },
+      {
+        "unit": "u147",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 55
+      },
+      {
+        "unit": "u148",
+        "metric": "revenue",
+        "value": 22.91,
+        "known_at": 32
+      },
+      {
+        "unit": "u148",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 55
+      },
+      {
+        "unit": "u149",
+        "metric": "revenue",
+        "value": 19.36,
+        "known_at": 32
+      },
+      {
+        "unit": "u149",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 55
+      },
+      {
+        "unit": "u150",
+        "metric": "revenue",
+        "value": 37.7,
+        "known_at": 33
+      },
+      {
+        "unit": "u150",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 56
+      },
+      {
+        "unit": "u151",
+        "metric": "revenue",
+        "value": 29.84,
+        "known_at": 33
+      },
+      {
+        "unit": "u151",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 56
+      },
+      {
+        "unit": "u152",
+        "metric": "revenue",
+        "value": 12.62,
+        "known_at": 33
+      },
+      {
+        "unit": "u152",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 56
+      },
+      {
+        "unit": "u153",
+        "metric": "revenue",
+        "value": 2.54,
+        "known_at": 33
+      },
+      {
+        "unit": "u153",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 56
+      },
+      {
+        "unit": "u154",
+        "metric": "revenue",
+        "value": 8.21,
+        "known_at": 33
+      },
+      {
+        "unit": "u154",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 56
+      },
+      {
+        "unit": "u155",
+        "metric": "revenue",
+        "value": 23.84,
+        "known_at": 33
+      },
+      {
+        "unit": "u155",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 56
+      },
+      {
+        "unit": "u156",
+        "metric": "revenue",
+        "value": 8.73,
+        "known_at": 34
+      },
+      {
+        "unit": "u156",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u157",
+        "metric": "revenue",
+        "value": 14.92,
+        "known_at": 34
+      },
+      {
+        "unit": "u157",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u158",
+        "metric": "revenue",
+        "value": 20.49,
+        "known_at": 34
+      },
+      {
+        "unit": "u158",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u159",
+        "metric": "revenue",
+        "value": 18.56,
+        "known_at": 34
+      },
+      {
+        "unit": "u159",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u160",
+        "metric": "revenue",
+        "value": 19.2,
+        "known_at": 34
+      },
+      {
+        "unit": "u160",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u161",
+        "metric": "revenue",
+        "value": 22.53,
+        "known_at": 34
+      },
+      {
+        "unit": "u161",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 57
+      },
+      {
+        "unit": "u162",
+        "metric": "revenue",
+        "value": 35.55,
+        "known_at": 35
+      },
+      {
+        "unit": "u162",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 58
+      },
+      {
+        "unit": "u163",
+        "metric": "revenue",
+        "value": 30.71,
+        "known_at": 35
+      },
+      {
+        "unit": "u163",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 58
+      },
+      {
+        "unit": "u164",
+        "metric": "revenue",
+        "value": 22.69,
+        "known_at": 35
+      },
+      {
+        "unit": "u164",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 58
+      },
+      {
+        "unit": "u165",
+        "metric": "revenue",
+        "value": 28.4,
+        "known_at": 35
+      },
+      {
+        "unit": "u165",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 58
+      },
+      {
+        "unit": "u166",
+        "metric": "revenue",
+        "value": 32.42,
+        "known_at": 35
+      },
+      {
+        "unit": "u166",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 58
+      },
+      {
+        "unit": "u167",
+        "metric": "revenue",
+        "value": 35.49,
+        "known_at": 35
+      },
+      {
+        "unit": "u167",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 58
+      },
+      {
+        "unit": "u168",
+        "metric": "revenue",
+        "value": 33.61,
+        "known_at": 36
+      },
+      {
+        "unit": "u168",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u169",
+        "metric": "revenue",
+        "value": 0.88,
+        "known_at": 36
+      },
+      {
+        "unit": "u169",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u170",
+        "metric": "revenue",
+        "value": 45.04,
+        "known_at": 36
+      },
+      {
+        "unit": "u170",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u171",
+        "metric": "revenue",
+        "value": 32.85,
+        "known_at": 36
+      },
+      {
+        "unit": "u171",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u172",
+        "metric": "revenue",
+        "value": 38.25,
+        "known_at": 36
+      },
+      {
+        "unit": "u172",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u173",
+        "metric": "revenue",
+        "value": 9.62,
+        "known_at": 36
+      },
+      {
+        "unit": "u173",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 59
+      },
+      {
+        "unit": "u174",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 37
+      },
+      {
+        "unit": "u174",
+        "metric": "refund",
+        "value": null,
+        "known_at": 60
+      },
+      {
+        "unit": "u175",
+        "metric": "revenue",
+        "value": 5.96,
+        "known_at": 37
+      },
+      {
+        "unit": "u175",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 60
+      },
+      {
+        "unit": "u176",
+        "metric": "revenue",
+        "value": 39.94,
+        "known_at": 37
+      },
+      {
+        "unit": "u176",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 60
+      },
+      {
+        "unit": "u177",
+        "metric": "revenue",
+        "value": 14.81,
+        "known_at": 37
+      },
+      {
+        "unit": "u177",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 60
+      },
+      {
+        "unit": "u178",
+        "metric": "revenue",
+        "value": 28.31,
+        "known_at": 37
+      },
+      {
+        "unit": "u178",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 60
+      },
+      {
+        "unit": "u179",
+        "metric": "revenue",
+        "value": 31.66,
+        "known_at": 37
+      },
+      {
+        "unit": "u179",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 60
+      },
+      {
+        "unit": "u180",
+        "metric": "revenue",
+        "value": 20.06,
+        "known_at": 38
+      },
+      {
+        "unit": "u180",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u181",
+        "metric": "revenue",
+        "value": 25.25,
+        "known_at": 38
+      },
+      {
+        "unit": "u181",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u182",
+        "metric": "revenue",
+        "value": 19.43,
+        "known_at": 38
+      },
+      {
+        "unit": "u182",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u183",
+        "metric": "revenue",
+        "value": 9.3,
+        "known_at": 38
+      },
+      {
+        "unit": "u183",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u184",
+        "metric": "revenue",
+        "value": 7.03,
+        "known_at": 38
+      },
+      {
+        "unit": "u184",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u185",
+        "metric": "revenue",
+        "value": 30.44,
+        "known_at": 38
+      },
+      {
+        "unit": "u185",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 61
+      },
+      {
+        "unit": "u186",
+        "metric": "revenue",
+        "value": 22.34,
+        "known_at": 39
+      },
+      {
+        "unit": "u186",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u187",
+        "metric": "revenue",
+        "value": 39.16,
+        "known_at": 39
+      },
+      {
+        "unit": "u187",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u188",
+        "metric": "revenue",
+        "value": 48.98,
+        "known_at": 39
+      },
+      {
+        "unit": "u188",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u189",
+        "metric": "revenue",
+        "value": 13.29,
+        "known_at": 39
+      },
+      {
+        "unit": "u189",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u190",
+        "metric": "revenue",
+        "value": 12.16,
+        "known_at": 39
+      },
+      {
+        "unit": "u190",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u191",
+        "metric": "revenue",
+        "value": 33.33,
+        "known_at": 39
+      },
+      {
+        "unit": "u191",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 62
+      },
+      {
+        "unit": "u192",
+        "metric": "revenue",
+        "value": 14.45,
+        "known_at": 40
+      },
+      {
+        "unit": "u192",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u193",
+        "metric": "revenue",
+        "value": 26.35,
+        "known_at": 40
+      },
+      {
+        "unit": "u193",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u194",
+        "metric": "revenue",
+        "value": 36.62,
+        "known_at": 40
+      },
+      {
+        "unit": "u194",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u195",
+        "metric": "revenue",
+        "value": 28.68,
+        "known_at": 40
+      },
+      {
+        "unit": "u195",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u196",
+        "metric": "revenue",
+        "value": 37.16,
+        "known_at": 40
+      },
+      {
+        "unit": "u196",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u197",
+        "metric": "revenue",
+        "value": 22.82,
+        "known_at": 40
+      },
+      {
+        "unit": "u197",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 63
+      },
+      {
+        "unit": "u198",
+        "metric": "revenue",
+        "value": 48.43,
+        "known_at": 41
+      },
+      {
+        "unit": "u198",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 64
+      },
+      {
+        "unit": "u199",
+        "metric": "revenue",
+        "value": 8.25,
+        "known_at": 41
+      },
+      {
+        "unit": "u199",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 64
+      },
+      {
+        "unit": "u200",
+        "metric": "revenue",
+        "value": 13.31,
+        "known_at": 41
+      },
+      {
+        "unit": "u200",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 64
+      },
+      {
+        "unit": "u201",
+        "metric": "revenue",
+        "value": 33.89,
+        "known_at": 41
+      },
+      {
+        "unit": "u201",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 64
+      },
+      {
+        "unit": "u202",
+        "metric": "revenue",
+        "value": 37.44,
+        "known_at": 41
+      },
+      {
+        "unit": "u202",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 64
+      },
+      {
+        "unit": "u203",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 41
+      },
+      {
+        "unit": "u203",
+        "metric": "refund",
+        "value": null,
+        "known_at": 64
+      },
+      {
+        "unit": "u204",
+        "metric": "revenue",
+        "value": 27.42,
+        "known_at": 42
+      },
+      {
+        "unit": "u204",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u205",
+        "metric": "revenue",
+        "value": 45.5,
+        "known_at": 42
+      },
+      {
+        "unit": "u205",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u206",
+        "metric": "revenue",
+        "value": 21.56,
+        "known_at": 42
+      },
+      {
+        "unit": "u206",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u207",
+        "metric": "revenue",
+        "value": 32.5,
+        "known_at": 42
+      },
+      {
+        "unit": "u207",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u208",
+        "metric": "revenue",
+        "value": 10.97,
+        "known_at": 42
+      },
+      {
+        "unit": "u208",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u209",
+        "metric": "revenue",
+        "value": 40.02,
+        "known_at": 42
+      },
+      {
+        "unit": "u209",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 65
+      },
+      {
+        "unit": "u210",
+        "metric": "revenue",
+        "value": 39.27,
+        "known_at": 43
+      },
+      {
+        "unit": "u210",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u211",
+        "metric": "revenue",
+        "value": 33.88,
+        "known_at": 43
+      },
+      {
+        "unit": "u211",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u212",
+        "metric": "revenue",
+        "value": 5.83,
+        "known_at": 43
+      },
+      {
+        "unit": "u212",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u213",
+        "metric": "revenue",
+        "value": 46.35,
+        "known_at": 43
+      },
+      {
+        "unit": "u213",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u214",
+        "metric": "revenue",
+        "value": 31.48,
+        "known_at": 43
+      },
+      {
+        "unit": "u214",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u215",
+        "metric": "revenue",
+        "value": 25.99,
+        "known_at": 43
+      },
+      {
+        "unit": "u215",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 66
+      },
+      {
+        "unit": "u216",
+        "metric": "revenue",
+        "value": 22.07,
+        "known_at": 44
+      },
+      {
+        "unit": "u216",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 67
+      },
+      {
+        "unit": "u217",
+        "metric": "revenue",
+        "value": 3.08,
+        "known_at": 44
+      },
+      {
+        "unit": "u217",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 67
+      },
+      {
+        "unit": "u218",
+        "metric": "revenue",
+        "value": 21.36,
+        "known_at": 44
+      },
+      {
+        "unit": "u218",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 67
+      },
+      {
+        "unit": "u219",
+        "metric": "revenue",
+        "value": 22.92,
+        "known_at": 44
+      },
+      {
+        "unit": "u219",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 67
+      },
+      {
+        "unit": "u220",
+        "metric": "revenue",
+        "value": 27.96,
+        "known_at": 44
+      },
+      {
+        "unit": "u220",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 67
+      },
+      {
+        "unit": "u221",
+        "metric": "revenue",
+        "value": 31.94,
+        "known_at": 44
+      },
+      {
+        "unit": "u221",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 67
+      },
+      {
+        "unit": "u222",
+        "metric": "revenue",
+        "value": 23.71,
+        "known_at": 45
+      },
+      {
+        "unit": "u222",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u223",
+        "metric": "revenue",
+        "value": 19.89,
+        "known_at": 45
+      },
+      {
+        "unit": "u223",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u224",
+        "metric": "revenue",
+        "value": 8.51,
+        "known_at": 45
+      },
+      {
+        "unit": "u224",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u225",
+        "metric": "revenue",
+        "value": 25.35,
+        "known_at": 45
+      },
+      {
+        "unit": "u225",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u226",
+        "metric": "revenue",
+        "value": 17.63,
+        "known_at": 45
+      },
+      {
+        "unit": "u226",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u227",
+        "metric": "revenue",
+        "value": 17.25,
+        "known_at": 45
+      },
+      {
+        "unit": "u227",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 68
+      },
+      {
+        "unit": "u228",
+        "metric": "revenue",
+        "value": 37.42,
+        "known_at": 46
+      },
+      {
+        "unit": "u228",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 69
+      },
+      {
+        "unit": "u229",
+        "metric": "revenue",
+        "value": 23.88,
+        "known_at": 46
+      },
+      {
+        "unit": "u229",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 69
+      },
+      {
+        "unit": "u230",
+        "metric": "revenue",
+        "value": 39.94,
+        "known_at": 46
+      },
+      {
+        "unit": "u230",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 69
+      },
+      {
+        "unit": "u231",
+        "metric": "revenue",
+        "value": 34.27,
+        "known_at": 46
+      },
+      {
+        "unit": "u231",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 69
+      },
+      {
+        "unit": "u232",
+        "metric": "revenue",
+        "value": null,
+        "known_at": 46
+      },
+      {
+        "unit": "u232",
+        "metric": "refund",
+        "value": null,
+        "known_at": 69
+      },
+      {
+        "unit": "u233",
+        "metric": "revenue",
+        "value": 0,
+        "known_at": 46
+      },
+      {
+        "unit": "u233",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 69
+      },
+      {
+        "unit": "u234",
+        "metric": "revenue",
+        "value": 37.35,
+        "known_at": 47
+      },
+      {
+        "unit": "u234",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 70
+      },
+      {
+        "unit": "u235",
+        "metric": "revenue",
+        "value": 6.19,
+        "known_at": 47
+      },
+      {
+        "unit": "u235",
+        "metric": "refund",
+        "value": 1,
+        "known_at": 70
+      },
+      {
+        "unit": "u236",
+        "metric": "revenue",
+        "value": 27.52,
+        "known_at": 47
+      },
+      {
+        "unit": "u236",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 70
+      },
+      {
+        "unit": "u237",
+        "metric": "revenue",
+        "value": 18.46,
+        "known_at": 47
+      },
+      {
+        "unit": "u237",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 70
+      },
+      {
+        "unit": "u238",
+        "metric": "revenue",
+        "value": 30.85,
+        "known_at": 47
+      },
+      {
+        "unit": "u238",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 70
+      },
+      {
+        "unit": "u239",
+        "metric": "revenue",
+        "value": 35.46,
+        "known_at": 47
+      },
+      {
+        "unit": "u239",
+        "metric": "refund",
+        "value": 0,
+        "known_at": 70
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "revenue",
+        "name": "收益",
+        "direction": "higher",
+        "maturity_days": 7,
+        "margin": 0
+      },
+      {
+        "metric": "refund",
+        "name": "退款率",
+        "direction": "lower",
+        "maturity_days": 30,
+        "margin": 0.02
+      }
+    ],
+    "looks": [
+      20,
+      40,
+      60
+    ]
+  }
+}
