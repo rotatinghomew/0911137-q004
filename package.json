@@ -1,0 +1,9 @@
+{
+  "name": "experiment-family-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m experiment_family",
+    "test:browser": "python3 tests/browser_smoke.py"
+  }
+}
