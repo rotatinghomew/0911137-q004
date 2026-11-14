@@ -4,10 +4,48 @@
 <body>
 <header><span>本地分析应用</span><h1>多方案实验评审台</h1><p id="description"></p></header>
 <main>
+<section aria-label="描述性浏览"><h2>描述性浏览</h2><p class="hint">这里的筛选只显示成熟样本均值，不构成上线结论，也不消耗确认性查看额度。</p>
 <form id="filters"><label>分析时点 <input name="cutoff" type="number" required></label><label>业务范围 <select name="group"></select></label><button type="submit">更新分析</button></form>
 <p id="status" role="status">正在读取资料</p>
-<section aria-label="当前分析"><h2>当前资料摘要</h2><dl id="summary"></dl><ul id="notes"></ul><p id="digest"></p><div id="results" class="scroll"></div></section>
-<section aria-label="保存的分析"><h2>分析版本</h2><form id="save"><label>版本名称 <input name="title" required maxlength="100" value="经营讨论"></label><button type="submit">保存当前分析</button></form><ul id="history"></ul></section>
+<dl id="summary"></dl><ul id="notes"></ul><p id="digest"></p><div id="results" class="scroll"></div></section>
+
+<section aria-label="保存的分析"><h2>描述性分析版本</h2><form id="save"><label>版本名称 <input name="title" required maxlength="100" value="经营讨论"></label><button type="submit">保存当前分析</button></form><ul id="history"></ul></section>
+
+<section aria-label="确认性分析">
+<h2>确认性分析计划</h2>
+<p class="hint">先保存计划，再打开结果。计划中的指标方向、业务门槛、成熟天数、对照与方案族、错误率分配都会冻结；之后改指标或人群只能另存为探索。</p>
+<form id="design">
+  <label>计划名称 <input name="title" required maxlength="100" value="评审会确认性分析"></label>
+  <label>保存时点 <input name="cutoff" type="number" required></label>
+  <label>人群 <select name="group"></select></label>
+  <label>对照 <select name="control"></select></label>
+  <label class="wide">待评方案 <select name="treatments" multiple required></select></label>
+  <label>计划查看次数 <input name="max_looks" type="number" min="1" max="20" value="3" required></label>
+  <label>总体单侧 α <input name="alpha" type="number" min="0.001" max="0.49" step="0.001" value="0.05" required></label>
+  <label>单组观测下限 <input name="min_observed" type="number" min="2" value="2" required></label>
+  <label>缺失率上限 <input name="max_missing_rate" type="number" min="0" max="0.99" step="0.01" value="0.2" required></label>
+  <fieldset class="wide"><legend>指标与业务角色</legend><div id="metric-roles"></div></fieldset>
+  <label class="wide"><input name="preregistered" type="checkbox" checked> 我在看结果前保存此计划（确认性）</label>
+  <button type="submit">保存计划</button>
+</form>
+<p class="hint" id="design-note"></p>
+<ul id="designs"></ul>
+</section>
+
+<section aria-label="计划详情" id="design-detail" hidden>
+  <h2 id="detail-title"></h2>
+  <p class="hint" id="detail-note"></p>
+  <dl id="detail-meta"></dl>
+  <div id="readiness"></div>
+  <div class="row"><label>本次查看到时点 <input id="look-cutoff" type="number" required></label><button id="preview" type="button">预备检查（不消耗额度）</button><button id="look" type="button">正式打开结果</button></div>
+  <p class="hint">预备检查只显示成熟度与错误率分配，不显示效应和判定。正式打开会占用一次查看并永久记录。</p>
+  <div id="preview-output"></div>
+  <h3>错误率分配（可复核）</h3>
+  <div id="schedule" class="scroll"></div>
+  <h3>已打开的查看</h3><ul id="looks"></ul>
+  <div id="look-output"></div>
+</section>
+
 <section aria-label="原始资料"><h2>资料查阅</h2><label>资料表 <select id="tables"></select></label><button id="source" type="button">查看资料</button><div id="raw" class="scroll"></div></section>
 </main><script src="/app.js" defer></script>
 </body></html>
